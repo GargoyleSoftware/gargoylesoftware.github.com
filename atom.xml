@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Gargoyle Software]]></title>
   <link href="http://GargoyleSoftware.github.com/atom.xml" rel="self"/>
   <link href="http://GargoyleSoftware.github.com/"/>
-  <updated>2013-02-18T15:55:23-05:00</updated>
+  <updated>2013-02-18T17:22:09-05:00</updated>
   <id>http://GargoyleSoftware.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Gargoyle Software]]></name>
+    <email><![CDATA[press@gargoyle.co]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to our new home]]></title>
+    <link href="http://GargoyleSoftware.github.com/blog/2013/02/18/welcome-to-our-new-home/"/>
+    <updated>2013-02-18T17:11:00-05:00</updated>
+    <id>http://GargoyleSoftware.github.com/blog/2013/02/18/welcome-to-our-new-home</id>
+    <content type="html"><![CDATA[<p>Hallelujah! Glory on the highest!</p>
+]]></content>
+  </entry>
   
 </feed>
