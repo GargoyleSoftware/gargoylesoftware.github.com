@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gargoyle Software - Blog</title>
+    <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like.-->
+    <link rel="stylesheet" type="text/css" href="/foundation/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/foundation/css/foundation.css">
+    <!-- If you are using the gem version, you need this only-->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/galleria/themes/classic/galleria.classic.css">
+    <script src="/foundation/js/vendor/custom.modernizr.js"></script>
+  </head>
+  <body>
+    <!-- Header and Nav-->
+    <div class="row nav">
+      <div class="large-12 columns spacer">
+        <p></p>
+        <!-- create spacing on top of page-->
+      </div>
+    </div>
+    <div class="row nav">
+      <div class="large-3 columns logo">
+        <div id="logo"><a href="/"><img src="/general/logo/standard.png" class="logo"></a></div>
+      </div>
+      <div class="large-9 columns">
+        <ul class="button-group right">
+          <li><a href="/offering.html" class="button">Offering</a></li>
+          <li><a href="/approach.html" class="button">Approach</a></li>
+          <li><a href="/case-studies.html" class="button">Case Studies</a></li>
+          <li><a href="/team.html" class="button">Team</a></li>
+          <li><a href="/contact.html" class="button contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Header and Nav-->
+    <!-- First Band (Image)-->
+    <div class="row">
+      <div class="large-12 columns">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Blog</h1>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <article class="article intro">
+          <header>
+            <p class="date"><span>31. January 2014</span></p>
+            <h2><a href="/articles/new-site/">New Website</a></h2>
+          </header>
+          <section class="content"><p>Welcome to the new site! It’ll be a while before this place is beautiful, but our hope is to put some good blog articles up here to make it feel more like&nbsp;home.</p>
+<p>Excited to see where this&nbsp;goes.</p>
+
+          </section>
+        </article>
+      </div>
+    </div>
+    <div class="row">
+      <hr>
+      <div class="nav"><a href="/archive.html">« Archives</a>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr>
+        <div class="row">
+          <div class="large-6 columns">
+            <p>© Copyright 2014 Gargoyle Software LLC</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/jobs.html">Jobs</a></li>
+              <li><a href="http://www.twitter.com/GargoyleSoft">Twitter</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/foundation/js/jquery.js"></script>
+    <script src="/foundation/js/foundation.min.js"></script>
+    <script src="/galleria/galleria-1.3.3.js"></script>
+    <script>$(document).foundation();</script>
+    <script>
+      console.log("no galleria on this page")
+      
+    </script>
+  </body>
+</html>
+<!--   header.header-->
+<!--     div.content-wrap-->
+<!--       block header-->
+<!--         include nav-->
+<!--         div.logo-->
+<!--           h1-->
+<!--             a(href=locals.url)-->
+<!--               img(src="/logo/standard.png")-->
+<!--           p.description= locals.description-->
+<!--         div.nav-->
+<!--           mixin nav()-->
+<!--   div#content-->
+<!--     div.content-wrap-->
+<!--       block content-->
+<!--         h2 Welcome to zombocom!-->
+<!--   footer-->
+<!--     div.content-wrap-->
+<!--       block footer-->
+<!--         section.about-->
+<!--           !=contents['about.md'].html-->
+<!--         section.copy-->
+<!--           p &copy; #{ new Date().getFullYear() } #{ locals.owner }-->
+<!---->

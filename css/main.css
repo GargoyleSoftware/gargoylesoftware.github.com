@@ -1,0 +1,84 @@
+/* Gargoyle Custom */
+
+div.employee img {
+  height: 300px;
+  width: 400px;
+}
+
+div.row.nav {
+}
+
+div.large-3.columns.spacer {
+}
+
+div.large-3.columns.logo {
+}
+
+div#logo {
+}
+
+img.logo {
+  /*height: 300px;*/
+  /*width: 600px;*/
+  /*overflow: hidden;*/
+  display: block;
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+img.topRight {
+  /*display: block;*/
+  /*width: auto;*/
+  /*height: auto;*/
+  /*max-height:300px;*/
+	max-width:300px;
+	margin-right:0px;
+	padding-right:0px;
+	float:right;
+}
+
+img.project {
+  max-width:200px;
+  max-height:200px;
+}
+
+li.caseStudy {
+  height: 120px;
+  min-width: 235px;
+}
+
+ul.cases {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.button.contact {
+  background-color: #D50101;
+}
+      
+.galleria{ 
+  width: 800px; 
+  height: 600px; 
+  background: #000 
+}
+
+
+.youtube {
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+  width:800px;
+}
+
+.contactButton {
+        margin-right: 10px;
+}
+
+.contactButton span {
+}
+
+#emailUs {
+        margin-left: 8px;
+}
