@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://GargoyleSoftware.github.com/sitemap.xml 
